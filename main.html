@@ -6,7 +6,7 @@
     <meta charset="utf-8">
 
     <!-- Bootstrap CSS -->
-    <link href="ccs/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- Title of page -->
@@ -33,7 +33,7 @@
                         <a class="nav-link" href="#">Opciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Descargas</a>
+                        <a class="nav-link" target="_blank" href="https://getbootstrap.com/docs/5.0/components/navbar/">NavBar</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Proximamente</a>
@@ -57,14 +57,15 @@
             <!-- Create columns -->
             <div class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
                 <div class="position-sticky pt-3">
-                    <div class="card" ">
+                     <!-- A card of bootstrap -->
+                    <div class="card" style="background-color: #212529; color: #fff;">
                         <img src="Images/7.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Aquí esta la mejor imagen de unicornio que puedes encontrar</p>
                         </div>
                       </div>
                     <!-- Accordion class from bootstrap -->
-                    <div class="accordion accordion-flush" style="margin-top: 20px;">
+                    <div class="accordion accordion-flush " style="margin-top: 20px; background-color: rgb(221, 215, 228) ;" >
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -75,8 +76,8 @@
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">navbar para eso sirve :)
-                                    <code>.link bootsrap</code>.
+                                <div class="accordion-body">Con el tag code hacemos que el texto se vea como está a continuación:
+                                    <code>link </code><a href="https://getbootstrap.com/">bootsrap</a>.
                                 </div>
                             </div>
                         </div>
@@ -90,7 +91,7 @@
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">aprendimos code, row(raw), accordion, justify and href
+                                <div class="accordion-body"style="text-align:justify;">Aprendimos code, se divide en 12 columnas la página, esto es un <a href="https://getbootstrap.com/docs/5.0/components/accordion/">acordion</a> de bootsrap, justify and href
                                 </div>
                             </div>
                         </div>
@@ -104,7 +105,7 @@
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Intentamos poner dos cositas a la vez y casi no podemos por
+                                <div class="accordion-body">Intentamos poner dos cositas una al lado de otra y casi no podemos por
                                     culpa de
                                     <code>row(raw)</code>
                                 </div>
